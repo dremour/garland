@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    transform: translateX(calc(50% - 150px));
+}
+
+
+.garland__item {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    display: inline-block;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+.garland__item--1 {
+    background: #001f3f;
+}
+
+.garland__item--2 {
+    background: #7FDBFF;
+}
+
+.garland__item--3 {
+    background: #01FF70;
+}
